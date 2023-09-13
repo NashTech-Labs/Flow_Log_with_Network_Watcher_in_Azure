@@ -1,6 +1,6 @@
 ## Description
 
-Here, In this template, we will create a Network Watcher resource at a particular location within a subscription and check whether it is created or not.
+Here, In this template, we will create a Flow log that provides logs of Network resources at a particular location within a subscription.
 
 ---
 ##### Pre-Requisite
