@@ -24,19 +24,19 @@ variable "location_VV" {
 variable "storage_account_name_VV" {
   default     = ""
   description = "Name of Storage Account"
-  type = string
+  type        = string
 }
 
 variable "storage_account_name_tier_account_VV" {
   default     = ""
   description = "Type of Tier in Storage Account"
-  type = string
+  type        = string
 }
 
 variable "storage_account_name_kind_account_VV" {
   default     = ""
   description = "Kind of Storage Account"
-  type = string
+  type        = string
 }
 
 
@@ -73,13 +73,13 @@ variable "network_watcher_flow_log_name_enabled_VV" {
 variable "network_watcher_flow_log_name_retention_policy_enabled_VV" {
   default     = true
   description = "Flog Log Retention Policy"
-  type = bool
+  type        = bool
 }
 
 variable "network_watcher_flow_log_name_retention_policy_days_VV" {
   default     = 7
   description = "Retention Policy Days of Flog Log"
-  type = number
+  type        = number
 }
 
 variable "network_watcher_flow_log_name_traffic_analytics_enabled_VV" {
@@ -94,14 +94,14 @@ variable "network_watcher_flow_log_name_traffic_analytics_interval_minutes_VV" {
 }
 
 #############################
-#   Anaytics Workspace     #
+#   Analytics Workspace     #
 #############################
 
 
 variable "log_analytics_workspace_name_VV" {
   default     = ""
   description = "Name of Log Analytics Workspace"
-  type = string
+  type        = string
 }
 
 variable "log_analytics_workspace_sku_VV" {
@@ -110,8 +110,12 @@ variable "log_analytics_workspace_sku_VV" {
   type        = string
 }
 
-variable "network_security_group_id" {
+#############################
+#   NSG ID of Resource    #
+#############################
+
+variable "network_security_group_id_VV" {
   default     = ""
   description = "ID of Network Security Group of the resource associated"
-  type = string
+  type        = string
 }

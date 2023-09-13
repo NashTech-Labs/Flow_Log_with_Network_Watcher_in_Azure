@@ -32,7 +32,7 @@ resource "azurerm_network_watcher_flow_log" "test" {
   name                      = var.network_watcher_flow_log_name_VV
   network_watcher_name      = azurerm_network_watcher.example.name
   resource_group_name       = azurerm_resource_group.example.name
-  network_security_group_id = var.network_security_group_id    ##change here nsg id
+  network_security_group_id = var.network_security_group_id_VV # Change Here for NSG, resource which you want to get the logs
   storage_account_id        = azurerm_storage_account.test.id
   enabled                   = var.network_watcher_flow_log_name_enabled_VV
 
