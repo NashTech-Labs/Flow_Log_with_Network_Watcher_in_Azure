@@ -36,24 +36,24 @@ Here, In this template, we will create a Flow log that provides logs of Network 
 
 The following table lists the configurable parameters of the Network Watcher module with their default values.
 
-| Parameters                                                       | Description                                              | Default       | Type   |
-|------------------------------------------------------------------|----------------------------------------------------------|---------------|--------|
-| network_watcher_name_VV                                          | Network Watcher Name                                     | ""            | string |
-| rg_VV                                                            | Name of resource group                                   | ""            | string |
-| location_VV                                                      | Name of location                                         | ""            | string |
-| storage_account_name                                             | Name of Storage Account                                  | ""            | string |
-| storage_account_name_tier_account                                | Type of Tier in Storage Account                          | Standard      | string |
-| storage_account_name_kind_account                                | Kind of Storage Account                                  | StorageV2     | string |
-| storage_account_replication_type_account                         | Replication Count of Storage Account                     | LRS           | string |
-| storage_account_https_traffic_only                               | HTTP Traffic of Storage Account                          | true          | bool   |
-| log_analytics_workspace_name                                     | Name of Log Analytics Workspace                          | ""            | string |
-| log_analytics_workspace_sku                                      | Type of Log Analytics Workspace SKU                      | PerGB2018     | string |
-| network_watcher_flow_log_name                                    | Name of Flog Log                                         | ""            | string |
-| network_watcher_flow_log_name_enabled                            | Flog Log Enabled                                         | true          | bool   |
-| network_watcher_flow_log_name_retention_policy_enabled           | Flog Log Retention Policy                                | true          | bool   |
-| network_watcher_flow_log_name_retention_policy_days              | Retention Policy Days of Flog Log                        | 7             | number |
-| network_watcher_flow_log_name_traffic_analytics_enabled          | Flog Log Traffic Analytics Enabled                       | true          | bool   |
-| network_watcher_flow_log_name_traffic_analytics_interval_minutes | Flog Log Traffic Analytics Interval in Minutes           | 10            | number |
-| network_security_group_id                                        | ID of Network Security Group of the resource associated  | ""            | string | 
+| Parameters                                                          | Description                                              | Default       | Type   |
+|---------------------------------------------------------------------|----------------------------------------------------------|---------------|--------|
+| network_watcher_name_VV                                             | Network Watcher Name                                     | ""            | string |
+| rg_VV                                                               | Name of resource group                                   | ""            | string |
+| location_VV                                                         | Name of location                                         | ""            | string |
+| storage_account_name_VV                                             | Name of Storage Account                                  | ""            | string |
+| storage_account_name_tier_account_VV                                | Type of Tier in Storage Account                          | Standard      | string |
+| storage_account_name_kind_account_VV                                | Kind of Storage Account                                  | StorageV2     | string |
+| storage_account_replication_type_account_VV                         | Replication Count of Storage Account                     | LRS           | string |
+| storage_account_https_traffic_only_VV                               | HTTP Traffic of Storage Account                          | true          | bool   |
+| log_analytics_workspace_name_VV                                     | Name of Log Analytics Workspace                          | ""            | string |
+| log_analytics_workspace_sku_VV                                      | Type of Log Analytics Workspace SKU                      | PerGB2018     | string |
+| network_watcher_flow_log_name_VV                                    | Name of Flog Log                                         | ""            | string |
+| network_watcher_flow_log_name_enabled_VV                            | Flog Log Enabled                                         | true          | bool   |
+| network_watcher_flow_log_name_retention_policy_enabled_VV           | Flog Log Retention Policy                                | true          | bool   |
+| network_watcher_flow_log_name_retention_policy_days_VV              | Retention Policy Days of Flog Log                        | 7             | number |
+| network_watcher_flow_log_name_traffic_analytics_enabled_VV          | Flog Log Traffic Analytics Enabled                       | true          | bool   |
+| network_watcher_flow_log_name_traffic_analytics_interval_minutes_VV | Flog Log Traffic Analytics Interval in Minutes           | 10            | number |
+| network_security_group_id_VV                                        | ID of Network Security Group of the resource associated  | ""            | string | 
 
 ---
